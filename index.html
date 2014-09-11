@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<title>Blackjack</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="main">
+			<table>
+				<tr>
+					<td>
+						<span class="topFiller">
+							<h3><span id="dealerScoreDisplay">Dealer: </span>
+								<span id="dealerScore"> </span></h3>
+						</span>
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;
+						<span id="dealerCards">
+							<span><img id="d1" src="CardBack.jpg"/></span>
+							<span><img id="d2" src="CardBack.jpg"/></span>
+							<span><img id="d3" src="CardBack.jpg"/></span>
+							<span><img id="d4" src="CardBack.jpg"/></span>
+							<span><img id="d5" src="CardBack.jpg"/></span>
+						</span>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<span class="midFiller">
+							<p><h4><span id="potDisplay">Pot:</span><span id="pot">0</span></h4></p>
+							<p><h4><span id="instructions"></span></h4></p>
+						</span>
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;
+						<span id="playerCards">
+							<span><img id="c1" src="CardBack.jpg"/></span>
+							<span><img id="c2" src="CardBack.jpg"/></span>
+							<span><img id="c3" src="CardBack.jpg"/></span>
+							<span><img id="c4" src="CardBack.jpg"/></span>
+							<span><img id="c5" src="CardBack.jpg"/></span>
+						</span>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<span class="scoreFiller">
+							<h3><span id="scoreDisplay">Score:</span><span id="playerScore"> </span></h3>
+						</span>
+					</td>
+				</tr>
+				<tr>&nbsp;
+					<td>&nbsp;
+						<span class="buttonFiller">
+							<span id="hit" ><img src="hit.png" onclick="hit()" /></span>
+							<span id="stay"><img src="stay.png" onclick="stay()" /></span>
+							<span id="play"><img src="nextHand.png" onclick="ifPlay()" /></span>
+							<span id="start"><img src="startButton.png" onclick="ifPlay()" /></span>
+						</span>
+					</td>
+				</tr>
+				<tr>&nbsp;
+					<td>&nbsp;
+						<span class="betFiller">
+							<span id="bet"><img src="bet.png" onclick="bet()" /></span><span id="moneyDisplay">My chips: $</span><span id="money">50</span>
+						</span>
+					</td>
+				</tr>
+		</table>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,182 @@
+body {						/* 392.2 */
+    font-family: "DejaVu Sans", "Segoe UI", Candara, "Bitstream Vera Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+	background: #333;
+	text-align: center;
+	color: #008AFF;
+	padding: 0px;
+}
+.topFiller {
+	display: inline-block;
+	height: 40px;
+	width: 400px;
+	margin: 5px;
+	background: #333;
+}
+.midFiller {
+	display: inline-block;
+	height: 70px;
+	width: 400px;
+	margin: 5px;
+	background: #333;
+}
+.scoreFiller {
+	display: inline-block;
+	height: 40px;
+	width: 400px;
+	margin:5px;
+	background: #333;
+}
+.buttonFiller {
+	height: 22px;
+	width: 210px;
+	margin:5px;
+	background: #333;
+}
+tr {
+	width: 150px;
+	height: 30px;
+	text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+}
+td {
+	text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#main {
+	text-align:center;
+	position:fixed;
+	left:50%;
+	margin-left:-200px;
+	height:650px;
+}
+#dealerCards {
+	background:#228822;
+	display:inline-block;
+	height:110px;
+	width:400px;
+	border:1px ridge #111;
+}
+#playerCards {
+	background:#228822;
+	display:inline-block;
+	height:110px;
+	width:400px;
+	border:1px ridge #111;
+}
+#dealerScoreDisplay {
+	display:none;
+    margin-left: auto;
+    margin-right: auto;
+	text-align:center;
+}
+#scoreDisplay {
+	display:none;
+    margin-left: auto;
+    margin-right: auto;
+	text-align:center;
+}
+#instructions {
+	color: #FF0000;
+	text-align:center;
+}
+#c1 {
+	display:none;
+	text-align:center;
+	margin-top:7px;
+}
+#c2 {
+	display:none;
+	text-align:center;
+	margin-top:7px;
+}
+#c3 {
+	display:none;
+	margin-top:7px;
+	text-align:center;
+}
+#c4 {
+	display:none;
+	margin-top:7px;
+	text-align:center;
+}
+#c5 {
+	display:none;
+	margin-top:7px;
+	text-align:center;
+}
+#d1 {
+	display:none;
+	margin-top:7px;
+	text-align:center;
+}
+#d2 {
+	display:none;
+	margin-top:7px;
+	text-align:center;
+}
+#d3 {
+	display:none;
+	margin-top:7px;
+	text-align:center;
+}
+#d4 {
+	display:none;
+	margin-top:7px;
+	text-align:center;
+}
+#d5 {
+	display:none;
+	margin-top:7px;
+	text-align:center;
+}
+#start {
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+}
+#play {
+    margin-left: auto;
+    margin-right: auto;
+	display: none;
+}
+#hit {
+    margin-left: auto;
+    margin-right: auto;
+	display: none;
+}
+#stay {
+    margin-left: auto;
+    margin-right: auto;
+	display: none;
+}
+#bet {
+    margin-left: auto;
+    margin-right: auto;
+	display: inline-block;
+}
+#moneyDisplay {
+	margin-top: 5px;
+	margin-left: 5px;
+	font-family: Verdana, Arial, Sans-Serif;
+	font-size: 1em;
+	font-weight: bold;
+	color: #00FF00;
+	display: inline-block;
+}
+#money {
+	margin-top: 5px;
+	text-align: right;
+	font-family: Verdana, Arial, Sans-Serif;
+	font-size: 1em;
+	font-weight: bold;
+	color: #00FF00;
+	display: inline-block;
+}
+#potDisplay {
+	display: inline-block;
+}
+#pot {
+	display: inline-block;
+}
