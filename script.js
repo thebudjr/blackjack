@@ -180,7 +180,7 @@ var play = function(){
 };
 var bet = function(){
 	document.getElementById("instructions").style.display="none";
-	if(pMoney<=0 || pMoney<="0"){
+	if(pMoney<5 || pMoney<"5"){
 		document.getElementById("instructions").innerHTML="Insufficient Funds";
 		document.getElementById("instructions").style.display="inline-block";
 	}else{
